@@ -1,0 +1,276 @@
+@CHARSET "UTF-8";
+.team_btns{
+	padding-left:17px;
+	overflow:hidden;
+	margin-bottom:17px;
+}
+.team_btn{
+	display:block;
+	width:106px;
+	height:29px;
+	text-align:center;
+	color:white;
+	background:#c5c5c5;
+	line-height:29px;
+	font-size:15px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	float:left;
+	margin-right:10px;
+	
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+.team_btn:hover,.team_current{
+	color:white;
+	background:#8b8b8b;
+}
+
+.team_slider{
+	width:855px;
+	height:500px;
+	margin:0 auto;
+	position:relative;
+}
+.swiper-container_team{
+	overflow:hidden;
+}
+.team_slider ul{
+	margin:0px;
+	padding:0px;
+}
+.team_slider ul li{
+	padding-left:22px;
+	background:url(../img/team_icon.jpg) no-repeat left top;
+	padding-bottom:20px;
+	font-size:15px;
+	color:#868686;
+}
+.a_j{
+	display:block;
+	width:17px;
+	height:54px;
+	position:absolute;
+	top:50%;
+	margin-top:-27px;
+}
+.arrow-left_team{
+	left:-40px;
+	background:url(../img/team_left.png) no-repeat left top;
+}
+.arrow-right_team{
+	right:-40px;
+	background:url(../img/team_right.png) no-repeat left top;
+}
+.team_pagination{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	bottom:20px;
+}
+.team_pagination span{
+	width:8px;
+	height:8px;
+	margin-right:12px;
+	display:inline-block;
+	background:url(../img/kv_list.png) no-repeat left top;
+}
+.team_pagination span.swiper-active-switch{
+	background:url(../img/kv_list_on.png) no-repeat left top;
+}
+
+.labs{
+	overflow:hidden;
+}
+.labs_l{
+	width:510px;
+	float:left;
+}
+.labs_r{
+	width:452px;
+	float:right;
+	font-size:0px;
+}
+.labs_r img{
+	width:100%;
+}
+.labs_l h1{
+	font-size:36px;
+	color:black;
+	margin:0px 0px 10px 0px;
+	padding:30px 0px 15px 0px;
+	border-bottom:#d5d5d5 solid 1px;
+}
+.labs_l h1 span{
+	font-size:16px;
+}
+.labs_l p{
+	font-size:13px;
+	color:#8b8b8b;
+	line-height:30px;
+	text-indent:2em;
+}
+.labs_btn{
+	background:#f0f0f0;
+	color:#898989;
+}
+
+
+.philosophy_div{
+	width:935px;
+	margin:0 auto;
+}
+.philosophy_div h1{
+	font-size:30px;
+	color:#1f1f1f;
+	margin:0px;
+	padding-bottom:20px;
+	border-bottom:#987745 solid 2px;
+}
+.philosophy_div h2{
+	font-size:24px;
+	color:#c2ab91;
+	margin:0px;
+	padding-bottom:10px;
+	border-bottom:#d6bea2 solid 1px;
+}
+
+.philosophy_div li{
+	float:left;
+	margin-right:50px;
+}
+
+.formula{
+	width:824px;
+	margin:0 auto;
+	padding-top:85px;
+	position:relative;
+}
+.brand_static{
+	width:860px;
+	margin:0 auto;
+	padding-top:25px;
+	position:relative;
+	padding-bottom:25px;
+}
+.brand_static .swiper-wrapper{
+	display:none;
+}
+.brand_static_mobile{
+	display:none;
+}
+.formula_pagination{
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+.formula_pagination span{
+	display:block;
+	padding:8px 14px 8px 14px;
+	background:#cccccc;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	color:white;
+	text-align:center;
+	margin-right:30px;
+	float:left;
+	font-size:14px;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+.formula_pagination span:hover,.formula_pagination span.swiper-active-switch{
+	background:#646464;
+}
+
+.intro{
+	width:974px;
+	margin:0 auto;
+}
+.intro h1{
+	font-size:30px;
+	color:#e71e24;
+	margin:50px 0px 25px 0px;
+	padding:0px 0px 10px 10px;
+	border-bottom:#e5e5e5 solid 1px;
+}
+.story_plat{
+	width:970px;
+	margin:0 auto;
+}
+.story_plat h1{
+	margin:0px 0px 30px 0px;
+}
+.shop_online_plat{
+	width:860px;
+	margin:0 auto;
+}
+
+.sitemap_div{
+	padding:20px;
+	border:#ededed solid 1px;margin:10px 0px 20px 0px;
+}
+
+.sitemap_nav>ul{
+	overflow:hidden;
+}
+.sitemap_nav>ul>li{
+	width:108px;
+	min-height:415px;
+	margin-right:80px;
+	margin-bottom:35px;
+	float:left;
+}
+.sitemap_nav>ul>li>a{
+	display:block;
+	color:#e60911;
+	font-size:18px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:#ededed solid 1px;
+	font-weight:bold;
+}
+
+.sitemap_nav>ul>li>ul>li{
+	margin-bottom:17px;
+}
+.sitemap_nav>ul>li>ul>li>a{
+	color:#333333;
+	font-size:16px;
+	font-weight:bold;
+}
+.sitemap_nav>ul>li>ul>li>ul>li{
+	margin-top:17px;
+}
+.sitemap_nav>ul>li>ul>li>ul>li>a{
+	font-size:14px;
+	color:#9c9790;
+}
+
+
+
+
+/*mobile*/
+.mm_ll{
+	display:none;
+}
+.res_class h1{
+	display:none;
+}
+.mobile_more{
+	display:none;
+}
+.contact_mm h1{
+	display:none;
+}
+.team_h1{
+	display:none;
+}
+
+
+.hhhh_hshshs{
+	display:none;
+}

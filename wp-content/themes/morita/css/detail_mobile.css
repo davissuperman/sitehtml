@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+div.product_content{
+	display:none;
+}
+div.loop_mobile{
+	display:block;
+}
+
+div.product_des{
+	height:auto;
+}
+.mCSB_container div{
+	display:none;
+}
+.mCSB_container div:first-child{
+	display:block;
+}
+.mCSB_container div img{
+	width:100%;
+	height:auto;
+}
+ul.tab{
+	text-align:center;
+	padding:0px;
+}
+ul.tab li{
+	display:inline-block;
+	float:none;
+	margin:0px 10px 0px 10px;
+}
+
+div.product_des ul li{
+	font-size:13px;
+}

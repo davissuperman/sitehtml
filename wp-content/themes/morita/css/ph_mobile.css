@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+div.team_btns{
+	display:none;
+}
+div.philosophy_div{
+	width:96%;
+	margin:10px auto auto auto;
+}
+div.mpmp{
+	padding:10px;
+	margin:auto auto 10px auto;
+	background:white;
+}
+div.mpmp p{
+	height:auto!important;
+	padding:0px!important;
+}
+div.mpmp img{
+	width:100%;
+	margin:0px!important;
+}
+div.philosophy_div h1,div.philosophy_div h2{
+	font-size:20px;
+}
+div.philosophy_div p{
+	font-size:15px;
+}
+div.philosophy_div li{
+	margin-right:10px;
+}

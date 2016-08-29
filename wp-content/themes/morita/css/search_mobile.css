@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+section#inner_body{
+	padding:0px!important;
+}
+.search_h1{
+	font-size:20px!important;
+	color:#0e0e0e!important;
+	padding:10px 10px 10px 10px!important;
+}
+div.news_list{
+	width:96%;
+	margin:auto auto 10px auto;
+	background:white;
+}
+div.news_list ul li div.date{
+	display:none;
+}

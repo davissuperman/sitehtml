@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+div.brand_static{
+	display:none;
+}
+div.brand_static_mobile{
+	display:block;
+	width:96%;
+	margin:10px auto 10px auto;
+}
+div.brand_static_mobile video{
+	display:block;
+}
+.brand_static_m_d{
+	padding:10px;
+	background:white;
+}
+div.brand_static_mobile ul{
+	display:none;
+}
+div.brand_static_mobile video{
+	width:100%;
+}

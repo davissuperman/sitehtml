@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+.news_detail_list{
+	width:310px;
+	float:left;
+	margin-right:30px;
+}
+.news_detail_content{
+	width:640px;
+	float:left;
+}
+
+.news_detail_list nav dl{
+	border:#dfdfdf solid 1px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	margin:0px;
+}
+.news_detail_list nav dl dt{
+	padding:15px;
+	border-bottom:#dfdfdf solid 1px;
+	background:#fafafa;
+}
+.news_detail_list nav dl dt h2{
+	font-size:18px;
+	color:#323232;
+	margin:0px;
+}
+.news_detail_list nav dd{
+	padding:0px 20px 0px 20px;
+	margin:0px;
+}
+.news_detail_list nav dd ul{
+	margin:0px;
+	padding:0px;
+}
+.news_detail_list nav dd ul li{
+	padding:15px 0px 15px 15px;
+	border-top:#dfdfdf dashed 1px;
+	
+}
+.news_detail_list nav dd ul li:hover{
+	background:url(../img/right_jiantou.png) no-repeat left center;
+}
+.news_detail_list nav dd ul li:first-child{
+	border:none;
+}
+.news_detail_list nav dd ul li a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#2a2a2a;
+	font-size:14px;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.news_detail_list nav dd ul li a:hover{
+	color:#e60911;
+}
+.article_content header{
+	padding-bottom:12px;
+	border-bottom:#dfdfdf solid 1px;
+	margin-bottom:10px;
+}
+.article_content header h1{
+	font-size:24px;
+	color:#787878;
+	margin:0px 0px 22px 0px; 
+}
+.article_content header aside{
+	font-size:12px;
+	color:#9c9c9c;
+}
+.article_thumb{
+	margin-bottom:10px;
+}
+.article_thumb img{
+	width:100%;
+	height:auto;
+}
+.article_post{
+	color:#787878;
+	font-size:14px;
+	line-height:22px;
+}
+
+
+.ttt_hahaha{
+	display:none;
+}
+.mmm_ddd{
+	display:none;
+}

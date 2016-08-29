@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+div.shen_mm{
+	width:96%!important;
+	margin:10px auto 10px auto!important;
+	background:white;
+}
+div.shen_mm h1{
+	padding:10px!important;
+	border:none!important;
+	font-size:16px;
+}
+div.shen_mm p{
+	padding:10px!important;
+	margin:0px;
+	font-size:13px!important;
+}
+.sign{
+	color:#8e8e8e!important;
+}

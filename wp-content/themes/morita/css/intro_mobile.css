@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+div.team_btns{
+	display:none;
+}
+div.intro{
+	width:96%;
+	margin:10px auto 10px auto;
+	background:white;
+}
+div.intro h1{
+	margin:0px 10px 12px 10px;
+	padding:20px 0px 12px 0px;
+	color:#333333;
+	font-size:20px;
+}
+div.intro>div{
+	padding:0px 10px 0px 10px!important;
+}

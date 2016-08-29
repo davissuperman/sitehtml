@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+div.shop_search{
+	width:96%;
+	margin:10px auto 10px auto;
+	background:white;
+}
+div.shop_search h1{
+	font-size:20px!important;
+}
+div.shop_search p{
+	font-size:13px!important;
+	line-height:25px!important;
+	padding:10px;
+}
+div.shop_search div{
+	width:90%!important;
+}
+div.shop_search div a{
+	width:45%!important;
+}
+div.shop_search div a img{
+	width:100%!important;
+}
+div.shop_search p img{
+	width:100%!important;
+}

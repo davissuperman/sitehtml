@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+div.labs{
+	width:96%;
+	margin:0 auto;
+	background:white;
+}
+div.mm_ll{
+	display:block;
+	width:96%;
+	font-size:0px;
+	margin:10px auto auto auto;
+}
+div.mm_ll_2{
+	margin:auto auto 10px auto;
+}
+div.mm_ll img{
+	width:100%;
+}
+div.labs_r{
+	display:none;
+}
+div.labs_l{
+	width:96%;
+	margin:0 auto;
+	float:none;
+}
+div.labs_btns{
+	display:none;
+}
+div.labs_l h1{
+	font-size:20px;
+}
+div.labs_l h1 span{
+	font-size:14px;
+}
+div.labs_l p{
+	font-size:15px;
+}

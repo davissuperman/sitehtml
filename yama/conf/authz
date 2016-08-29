@@ -1,0 +1,7 @@
+[groups]
+
+admin = yama
+
+[yama:/]
+
+@admin =rw

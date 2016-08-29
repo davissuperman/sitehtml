@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+.bread_share{
+	
+}
+.product_content{
+	width:1000px;
+	margin:0 auto;
+}
+.pro_kv{
+	width:100%;
+	height:340px;
+}
+.pro_kv img{
+	width:100%;
+	height:100%;
+}
+.product_slider{
+	width:100%;
+	overflow:hidden;
+	background:white;
+	padding-top:20px;
+	position:relative;
+}
+.swiper-container_product{
+	width:900px;
+	height:170px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.swiper-container_product .swiper-slide{
+	overflow:hidden;
+}
+.swiper-container_product .swiper-slide .s_pic{
+	width:74px;
+	float:left;
+}
+.swiper-container_product .swiper-slide .s_pic img{
+	width:100%;
+	height:auto;
+}
+.swiper-container_product .swiper-slide .s_t{
+	float:left;
+	width:115px;
+	font-size:12px;
+	margin-left:12px;
+	padding-top:36px;
+	color:#333333;
+}
+.swiper-container_product .swiper-slide .s_t span{
+	color:#666;
+}
+.a_j{
+	position:absolute;
+	display:block;
+	width:13px;
+	height:23px;
+	top:45%;
+}
+.arrow-left_product{
+	left:20px;
+	background:url(../img/l.png) no-repeat left top;
+}
+.arrow-right_product{
+	right:20px;
+	background:url(../img/r.png) no-repeat left top;
+}
+
+.product_content_detail{
+	overflow:hidden;
+	height:310px;
+	background:white;
+	border-bottom:#e5e5e5 solid 1px;
+}
+.product_content_detail_l{
+	width:668px;
+	float:left;
+}
+.product_content_detail_l img{
+	width:100%;
+	height:310px;
+}
+.product_content_detail_r{
+	width:332px;
+	float:right;
+}
+ul.tab{
+	height:47px;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+	padding-right:20px;
+}
+ul.tab li{
+	width:50%;
+	float:left;
+	padding-top:10px;
+}
+ul.tab li a{
+	display:block;
+	width:94px;
+	height:25px;
+	font-size:14px;
+	line-height:25px;
+	text-align:center;
+	background:white;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	
+	margin:0 auto;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+ul.tab li a.current,ul.tab li a:hover{
+	background:#efefef;
+	
+	color:black;
+}
+.product_des{
+	height:223px;
+	padding:20px 20px 20px 25px;
+	line-height:20px;
+}
+.product_des ul li{
+	padding-left:15px;
+	padding-bottom:15px;
+	background:url(../img/red_point.png) no-repeat left 4px;
+	font-size:15px;
+}
+#mCSB_1_container>div{
+	display:none;
+}
+#mCSB_1_container>div:first-child{
+	display:block;
+}
+.product_slider h2{
+	margin:0px 0px 20px 25px;
+	padding-left:15px;
+	border-left:#e80c17 solid 2px;
+	font-size:14px;
+	color:#333333;
+}
+
+
+.loop_mobile{
+	display:none;
+}

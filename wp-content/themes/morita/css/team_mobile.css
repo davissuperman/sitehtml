@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+div.team_btns{
+	display:none;
+}
+h1.team_h1{
+	display:block;
+	width:96%;
+	margin:10px auto 10px auto;
+	font-size:16px;
+}
+div.team_slider{
+	width:96%;
+	margin:auto auto 10px auto;
+	background:white;
+}
+a.a_j{
+	display:none;
+}
+div.team_slider{
+	height:500px;
+}
+div.swiper-slide>div{
+	padding:20px 0px 0px 10px!important;
+	width:50%;
+}
+div.swiper-slide>div ul,div.swiper-slide>div p,div.swiper-slide>div h2,div.swiper-slide>div h3{
+	opacity:0;
+}
+div.swiper-slide>div li{
+	padding-bottom:15px!important;
+	color:#868686;
+	font-size:12px;
+}
+div.s1{
+	background:url(../img/yi1.jpg) no-repeat left top!important;
+	background-size:cover!important;
+	
+}
+
+div.s2{
+	background:url(../img/yi2.jpg) no-repeat left top!important;
+	background-size:cover!important;
+}
+div.s3{
+	background:url(../img/yi3.jpg) no-repeat left top!important;
+	background-size:cover!important;
+}
+div.s4{
+	background:url(../img/yi4.jpg) no-repeat left top!important;
+	background-size:cover!important;
+}
+div.swiper-slide.s4>div{
+	width:80%;
+}
+
+
+div.media_div{
+	width:100%;
+	padding:0px 10px 0px 10px;
+	box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;
+}
+#photos{
+	background:white;
+	visibility:visible;
+}
+.panel{
+	background:white;
+	padding:0px!important;
+	border-bottom:#999 dashed 1px!important;
+}
+.panel>h2{
+	font-size:14px!important;
+	padding:20px 10px 20px 10px!important;
+	border:none!important;
+	text-align:left!important;
+	background:url(../img/jiantoutou.png) no-repeat 95% 50%;
+}
+.panel>p{
+	display:none;
+}
+.panel>div{
+	display:none;
+	margin:0px!important;
+}
+.panel>div>div{
+	float:none;
+}
+.panel>div>div{
+	width:100%!important;
+	height:auto!important;
+	box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;
+	padding:10px;
+	color:#666!important;
+	font-size:14px;
+}
+.panel>div>div>img{
+	width:100%;
+	height:auto!important;
+}
+.filmstrip{
+	display:none;
+}
+.ssdsdsdsd{
+	font-size:16px;
+	margin:0px;
+	padding:0px 10px 10px 10px;
+	display:block!important;
+}
